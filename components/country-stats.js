@@ -157,7 +157,7 @@ export default function CountryStats() {
 
   if (error) return <div>failed to load list of countries</div>
 
-  if (!error && !countries) return <div>loading countries...</div>
+  if (!error && !countries) return <SkeletonLoader />
 
   let recoveryRate
   let deathRate
