@@ -20,6 +20,10 @@ const Brand = styled.h1`
     -webkit-text-fill-color: transparent;
     background-size: 300% auto;
     animation: ${animate} 7s ease-in-out infinite alternate;
+
+    @media screen and (max-width: 420px) {
+      font-size: 1.6rem;
+    }
   }
 `
 

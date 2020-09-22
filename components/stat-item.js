@@ -29,6 +29,11 @@ const StyledStatItem = styled.div`
       color: ${({ theme }) => theme.colors.lightgrey};
       opacity: 87%;
       font-size: 14px;
+
+      @media screen and (max-width: 420px) {
+        font-size: 15px;
+        font-weight: ${({ theme }) => theme.fontWeights.semibold};
+      }
     }
 
     p {
