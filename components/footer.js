@@ -6,6 +6,10 @@ const FooterDetails = styled.p`
   color: ${({ theme }) => theme.colors.lightgrey};
   font-size: 13px;
   opacity: 60%;
+
+  @media screen and (max-width: 420px) {
+    font-size: 12px;
+  }
 `
 
 export default function Footer() {
