@@ -13,7 +13,6 @@ const Brand = styled.h1`
     font-size: 2.5rem;
     font-weight: ${({ theme }) => theme.fontWeights.black};
     background: #12c2e9;
-    background: ${({ theme }) => theme.colors.wgradient};
     background: ${({ theme }) => theme.colors.gradient};
     -webkit-background-clip: text;
     background-clip: text;
